@@ -38,34 +38,36 @@ Customization: The bot is highly customizable, allowing you to enable or disable
 
 1. Prerequisites
 
-.NET 8.0: The bot requires .NET 8.0 to run. Download and install it from the official Microsoft website: https://dotnet.microsoft.com/download/dotnet/8.0
+.NET 8.0: The bot requires .NET 8.0 to run. 
+Download and install it from the official Microsoft website: https://dotnet.microsoft.com/download/dotnet/8.0
+
 2. Create a Discord Bot
 
-* Go to the Discord Developer Portal
-* Create a new application and give it a name (e.g., "Star Sonata 2 Bot").
-* In your application, navigate to the "Bot" section and click "Add Bot".
+- Go to the Discord Developer Portal
+- Create a new application and give it a name (e.g., "Star Sonata 2 Bot").
+- In your application, navigate to the "Bot" section and click "Add Bot".
 
-*** In the "Bot" settings enable the following intents: ***
+**In the "Bot" settings enable the following intents:**
 
-* Presence Intent
-* Server Members Intent
-* Message Content Intent
-* Copy the bot's token. You'll need this for the configuration file later.
+- Presence Intent
+- Server Members Intent
+- Message Content Intent
+- Copy the bot's token. You'll need this for the configuration file later.
 
 3. Generate an Invite Link
 
-* In your Discord application, go to the "OAuth2" section.
-* In the "URL Generator" tab, select "Bot" under "SCOPES".
+- In your Discord application, go to the "OAuth2" section.
+- In the "URL Generator" tab, select "Bot" under "SCOPES".
 
-*** Under "BOT PERMISSIONS", enable the following:***
+**Under "BOT PERMISSIONS", enable the following:**
 
-* View Channels
-* Read Message History
-* Manage Messages
-* Send Messages
-* Use Slash Commands
+- View Channels
+- Read Message History
+- Manage Messages
+- Send Messages
+- Use Slash Commands
 
-*** Copy the generated invite URL at the bottom of the page. ***
+Copy the generated invite URL at the bottom of the page.
 
 4. Invite the Bot to Your Server
 
@@ -73,11 +75,11 @@ Paste the invite URL into your web browser and follow the prompts to add the bot
 
 5. Configure the Bot
 
-* Once the bot is on your server, right-click on its profile and select "Copy ID".
-* Open the StarSonataInfo.json configuration file.
-* Paste the bot's ID into the "BotDiscordId" field.
+- Once the bot is on your server, right-click on its profile and select "Copy ID".
+- Open the StarSonataInfo.json configuration file.
+- Paste the bot's ID into the "BotDiscordId" field.
 
-* Fill in the rest of the configuration options based on your preferences and which features you want to use. See the detailed configuration section below for explanations of each option.
+Fill in the rest of the configuration options based on your preferences and which features you want to use. See the detailed configuration section below for explanations of each option.
 
 6. Run the Bot
 
@@ -140,9 +142,9 @@ The StarSonataInfo.json file allows you to customize various aspects of the bot'
 
 **Important:**
 
-* Replace the placeholders (e.g., your_discord_bot_token_here, 123456789012345678) with your actual information
-* Ensure that the channel IDs you provide correspond to existing channels on your Discord server
-* Feel free to ask if you have questions about any specific configuration option or need help setting it up!
+- Replace the placeholders (e.g., your_discord_bot_token_here, 123456789012345678) with your actual information
+- Ensure that the channel IDs you provide correspond to existing channels on your Discord server
+- Feel free to ask if you have questions about any specific configuration option or need help setting it up!
 
 ## Commands
 
