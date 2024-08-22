@@ -1,0 +1,49 @@
+{
+	"ServerUrl": "liberty.starsonata.com",
+	"BotDiscordId": "",
+	"DiscordToken": "",
+	"GameUsername": "",
+	"GamePassword": "",
+	"CharacterName": "",
+	"ReconnectDelay": 1,
+	"DiscordAdminUsers": [ 0 ],
+	"RelayChats": true,
+	"AutoReconnect": true,
+	"EnableStandingFleet": true,
+	"FleetAlertsChannel": 0,
+	"CreateFleetCommand": "!newfleet",
+	"JoinFleetCommand": "!fleet",
+	"FleetKickCommand": "!boot",
+	"ToggleFleetPublicCommand": "!flt-public",
+	"CheckFleetStatus": "!flt-status",
+	"PublicFleetInviteWord": "x",
+	"AllChatChannel": 0,
+	"TradeChatChannel": 0,
+	"TeamChatChannel": 0,
+	"UseTeamAlerts": true,
+	"TeamAlertsChannel": 0,
+	"ChannelToPostProdAlerts": 0,
+	"EnableIngameManhoursAndSavings": true,
+	"ConstructionBonusMax": 196,
+	"UseBaseAlerts": true,
+	"BaseAlertsChannel": 0,
+	"MinutesBetweenSpam": 20,
+	"SpamItems": [ "Steel Girders", "Sentient Chatbots", "Fusion Cells", "Paxian Figurines", "Promethium"],
+	"SendAlertsToTeamChat": true,
+	"CommandChannel": 0,
+	"ErrorChannel": 0,
+	"ChannelMappings": {
+		"Game": [
+			{
+				"Game": "Team",
+				"Discord": 0
+			}
+		],
+		"Discord": [
+			{
+				"Discord": 0,
+				"Game": "Team"
+			}
+		]
+	}
+}
