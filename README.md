@@ -7,6 +7,8 @@ A Star Sonata 2 bot bridging in-game chats and Discord, delivering real-time ale
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
+* [Config](#config)
+* [RequiredSettings](#required-settings)
 * [Contributing](#contributing)
 * [License](#license)
 
