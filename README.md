@@ -144,8 +144,13 @@ The StarSonataInfo.json file allows you to customize various aspects of the bot'
 
 - Replace the placeholders (e.g., your_discord_bot_token_here, 123456789012345678) with your actual information
 - Ensure that the channel IDs you provide correspond to existing channels on your Discord server
+
+**If you want the bot to post base alerts e.g construction halted/finished you'll need to dock the bot at your production base**
+
+**If you want the bot to invite multiple of your own characters when you do the join fleet command then you should add those characters to the list in TeamCharacters.json in the format provided. Otherwise it will only invite the character that uses the command.  This is useful if you have people who run multiple clients at once**
+
+
 - Feel free to ask if you have questions about any specific configuration option or need help setting it up!
-- If you want the bot to post base alerts e.g construction halted/finished you'll need to dock the bot at your production base
 
 ## Commands
 
