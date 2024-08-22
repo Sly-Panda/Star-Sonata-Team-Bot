@@ -16,7 +16,7 @@ A Star Sonata 2 bot bridging in-game chats and Discord, delivering real-time ale
 
 The Star Sonata 2 Bot is designed to make life in SS easier. It integrates your in-game chat with your Discord server, providing real-time alerts, useful commands, and other quality-of-life features.
 
-Key Features
+**Key Features**
 
 Real-time Alerts: Stay informed with instant Discord notifications for in-game events:
 
@@ -34,7 +34,8 @@ Additional Features (Optional):
 Relay in-game chats to Discord and vice-versa
 Manage a standing team fleet
 Access certain bot commands within the Star Sonata 2 game itself.
-Customization: The bot is highly customizable, allowing you to enable or disable most commands and functions in the config file to suit your team's needs.
+
+**Customization: The bot is highly customizable, allowing you to enable or disable most commands and functions in the config file to suit your team's needs.**
 
 ## Installation
 
@@ -73,7 +74,7 @@ Copy the generated invite URL at the bottom of the page.
 
 4. Invite the Bot to Your Server
 
-Paste the invite URL into your web browser and follow the prompts to add the bot to your desired Discord server.
+**Paste the invite URL into your web browser and follow the prompts to add the bot to your desired Discord server.**
 
 5. Configure the Bot
 
@@ -81,7 +82,7 @@ Paste the invite URL into your web browser and follow the prompts to add the bot
 - Open the StarSonataInfo.json configuration file.
 - Paste the bot's ID into the "BotDiscordId" field.
 
-Fill in the rest of the configuration options based on your preferences and which features you want to use. See the detailed configuration section below for explanations of each option.
+**Fill in the rest of the configuration options based on your preferences and which features you want to use. See the detailed configuration section below for explanations of each option.**
 
 6. Run the Bot
 
@@ -92,8 +93,7 @@ dotnet StarSonataTeamBot.dll
 
 Next Steps:
 
-After the bot is running, you can use the slash commands within Discord to interact with it and access its features.
-Refer to the "Commands" section below for a list of available commands and their descriptions.
+**After the bot is running, you can use the slash commands within Discord to interact with it and access its features. Refer to the "Commands" section below for a list of available commands and their descriptions.**
 
 ## Config
 
@@ -145,19 +145,20 @@ The StarSonataInfo.json file allows you to customize various aspects of the bot'
 **Important:**
 
 - Replace the placeholders (e.g., your_discord_bot_token_here, 123456789012345678) with your actual information
+
 - Ensure that the channel IDs you provide correspond to existing channels on your Discord server
 
-**If you want the bot to post base alerts e.g construction halted/finished you'll need to dock the bot at your production base**
+- If you want the bot to post base alerts e.g construction halted/finished you'll need to dock the bot at your production base**
 
-**If you want the bot to invite multiple of your own characters when you do the join fleet command then you should add those characters to the list in TeamCharacters.json in the format provided. Otherwise it will only invite the character that uses the command.  This is useful if you have people who run multiple clients at once**
+- If you want the bot to invite multiple of your own characters when you do the join fleet command then you should add those characters to the list in TeamCharacters.json in the format provided. Otherwise it will only invite the character that uses the command.  This is useful if you have people who run multiple clients at once**
 
 
-- Feel free to ask if you have questions about any specific configuration option or need help setting it up!
+**Feel free to ask if you have questions about any specific configuration option or need help setting it up!**
 
 ## Commands
 
 Commands
-The bot offers a variety of slash commands accessible directly within Discord:
+**The bot offers a variety of slash commands accessible directly within Discord:**
 
 * /fusions [amount] - Calculates the remaining time a galaxy will be owned based on the number of fusion cells.
 * /aug [name] - Displays the stats of an Augmenter based on its name.
@@ -180,7 +181,7 @@ The bot offers a variety of slash commands accessible directly within Discord:
 * /ubers - Displays known Uber locations.
 * /updateuberlocation [name] [location] - Changes the location of an Uber.
 
-Note: Some commands may have additional options or require specific permissions. You can access the config in Configuration/StarSonataInfo.json
+**Note: Some commands may have additional options or require specific permissions. You can access the config in Configuration/StarSonataInfo.json**
 
 ## Contributing
 
@@ -189,8 +190,6 @@ I welcome contributions to improve this project!
 * **Feature Requests & Suggestions:** If you have ideas for new features or improvements, please open an issue on GitHub and describe your suggestion in detail.
 
 * **Bug Reports:** If you encounter any bugs or issues, please open an issue on GitHub and provide as much information as possible to help us reproduce and fix the problem. Include steps to reproduce the issue, your operating system and version, and any relevant error messages.
-
-Thank you for helping make this project better!
 
 ## License
 
