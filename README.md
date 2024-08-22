@@ -102,8 +102,8 @@ The StarSonataInfo.json file allows you to customize various aspects of the bot'
 * "ServerUrl": The URL of the Star Sonata 2 server you play on (e.g., "liberty.starsonata.com").
 * "BotDiscordId": The Discord ID of your bot. You can obtain this by right-clicking on the bot's profile in Discord after inviting it to your server.
 * "DiscordToken": Your Discord bot's token. You can find this in the "Bot" section of your Discord application in the Developer Portal.
-* "GameUsername": Your Star Sonata 2 username.
-* "GamePassword": Your Star Sonata 2 password.
+* "GameUsername": Your Star Sonata 2 username for the bot account.
+* "GamePassword": Your Star Sonata 2 password for the bot account.
 * "CharacterName": The name of the in-game character you want the bot to log in as.
 
 **Optional Settings**
@@ -145,6 +145,7 @@ The StarSonataInfo.json file allows you to customize various aspects of the bot'
 - Replace the placeholders (e.g., your_discord_bot_token_here, 123456789012345678) with your actual information
 - Ensure that the channel IDs you provide correspond to existing channels on your Discord server
 - Feel free to ask if you have questions about any specific configuration option or need help setting it up!
+- If you want the bot to post base alerts e.g construction halted/finished you'll need to dock the bot at your production base
 
 ## Commands
 
