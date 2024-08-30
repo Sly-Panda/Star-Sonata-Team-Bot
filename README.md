@@ -158,7 +158,7 @@ The StarSonataInfo.json file allows you to customize various aspects of the bot'
 ## Commands
 
 Commands
-**The bot offers a variety of slash commands accessible directly within Discord:**
+**The bot has a bunch ofslash commands through Discord:**
 
 * /fusions [amount] - Calculates the remaining time a galaxy will be owned based on the number of fusion cells.
 * /aug [name] - Displays the stats of an Augmenter based on its name.
@@ -180,6 +180,18 @@ Commands
 * /addcyborg [galaxy] [dg] - Adds a Cyborg DG location to the list.
 * /ubers - Displays known Uber locations.
 * /updateuberlocation [name] [location] - Changes the location of an Uber.
+
+**There are also some additional ingame commands (other than the ones you set yourself in the config**
+
+* !manhours [manhours] [workforace] - Calcualtes build time based on the set production % in the config (ConstructionBonusMax).
+* !savings [amount] - Calculates savings for bulk builds.
+* !ubers - Displays known uber locations and links them for easy AP (update through discord with /updateuberlocation [name] [location])
+* !stellas - Displays known stella DG locations and their AP links (update through discord with /addstella)
+* !cyborgs - Displays known cyborg DG locations and their AP links (update through discord with /addcyborg)
+* ![Join Fleet Command] - Will invite you to a fleet run by the bot (If you wish to have multiple of your own characters invited at the same time, then add them to TeamCharacters.json)
+
+
+
 
 **Note: Some commands may have additional options or require specific permissions. You can access the config in Configuration/StarSonataInfo.json**
 
