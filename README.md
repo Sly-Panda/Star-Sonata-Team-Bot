@@ -9,6 +9,7 @@ A Star Sonata 2 bot bridging in-game chats and Discord, delivering real-time ale
 * [Usage](#usage)
 * [Config](#config)
 * [Required Settings](#required-settings)
+* [Commands](#commands)
 * [Contributing](#contributing)
 * [License](#license)
 
