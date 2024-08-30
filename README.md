@@ -159,7 +159,7 @@ The StarSonataInfo.json file allows you to customize various aspects of the bot'
 ## Commands
 
 Commands
-**The bot has a bunch ofslash commands through Discord:**
+**The bot has a bunch of slash commands through Discord:**
 
 * /fusions [amount] - Calculates the remaining time a galaxy will be owned based on the number of fusion cells.
 * /aug [name] - Displays the stats of an Augmenter based on its name.
