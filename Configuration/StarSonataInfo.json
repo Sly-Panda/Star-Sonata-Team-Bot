@@ -2,6 +2,12 @@
 	"ServerUrl": "liberty.starsonata.com",
 	"BotDiscordId": "",
 	"DiscordToken": "",
+	"YourDiscordServerID": "",
+	"RolesToPingForOwnershipAlerts": [  ],
+	"RolesToPingForAttackAlerts": [  ],
+	"PostSameTeamAttacks": true,
+	"ChannelToPostSameTeamAttacks": 0,
+	"YourTeamName": "",
 	"GameUsername": "",
 	"GamePassword": "",
 	"CharacterName": "",
@@ -12,7 +18,7 @@
 	"EnableStandingFleet": true,
 	"FleetAlertsChannel": 0,
 	"CreateFleetCommand": "!newfleet",
-	"JoinFleetCommand": "!fleet",
+	"JoinFleetCommand": "!joinfleet",
 	"FleetKickCommand": "!boot",
 	"ToggleFleetPublicCommand": "!flt-public",
 	"CheckFleetStatus": "!flt-status",
@@ -32,6 +38,7 @@
 	"SendAlertsToTeamChat": true,
 	"CommandChannel": 0,
 	"ErrorChannel": 0,
+	"OpenAIKey": "None",
 	"ChannelMappings": {
 		"Game": [
 			{
